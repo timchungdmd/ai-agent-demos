@@ -1,0 +1,14 @@
+Intake Form — fictional mock document
+Vendor: Riverstone Goods
+Date: 2026-09-25
+PO number: PO-1008
+
+Line items:
+  Gloves: 2 x $45.00 = $90.00
+  Beanies: 3 x $35.00 = $105.00
+
+Subtotal: $195.00
+Tax: $15.60
+Total: $210.60
+
+Demo — fictional data. Not a real vendor document.

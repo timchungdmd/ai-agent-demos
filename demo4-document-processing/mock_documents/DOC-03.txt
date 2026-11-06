@@ -1,0 +1,14 @@
+Supplier Invoice — fictional mock document
+Vendor: Summit Trading
+Date: 2026-09-09
+PO number: PO-1003
+
+Line items:
+  Climbing ropes: 5 x $80.00 = $400.00
+  Carabiners: 10 x $15.00 = $150.00
+
+Subtotal: $550.00
+Tax: $44.00
+Total: $594.00
+
+Demo — fictional data. Not a real vendor document.

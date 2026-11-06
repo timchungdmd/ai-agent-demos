@@ -1,0 +1,13 @@
+Supplier Invoice — fictional mock document
+Vendor: Summit Trading
+Date: 2026-09-22
+PO number: PO-1007
+
+Line items:
+  Camping lanterns: 10 x $100.00 = $1000.00
+
+Subtotal: $1000.00
+Tax: $80.00
+Total: $1080.00
+
+Demo — fictional data. Not a real vendor document.

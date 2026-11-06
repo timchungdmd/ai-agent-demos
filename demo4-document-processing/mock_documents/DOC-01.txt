@@ -1,0 +1,14 @@
+Supplier Invoice — fictional mock document
+Vendor: Alpine Gear Supply
+Date: 2026-09-02
+PO number: PO-1001
+
+Line items:
+  Trail tents: 2 x $150.00 = $300.00
+  Hiking backpacks: 3 x $80.00 = $240.00
+
+Subtotal: $540.00
+Tax: $43.20
+Total: $583.20
+
+Demo — fictional data. Not a real vendor document.

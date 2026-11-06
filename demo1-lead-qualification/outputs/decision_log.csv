@@ -1,0 +1,21 @@
+lead_id,name,email,service_requested,budget_points,timeline_points,service_points,intent_points,raw_score,score,route,destination,reason
+L001,Jordan Miller,jordan.miller@example.com,Kitchen remodel,30,25,25,20,100,100,Qualified,CRM mock + alert,meets_qualified_threshold
+L002,Alex Chen,alex.chen@example.com,Bathroom remodel,30,20,25,15,90,90,Qualified,CRM mock + alert,meets_qualified_threshold
+L003,Sam Patel,sam.patel@example.com,Kitchen remodel,20,25,25,20,90,90,Qualified,CRM mock + alert,meets_qualified_threshold
+L004,Taylor Brooks,taylor.brooks@example.com,Roof repair,30,25,15,15,85,85,Qualified,CRM mock + alert,meets_qualified_threshold
+L005,Casey Nguyen,casey.nguyen@example.com,Kitchen remodel,20,20,25,20,85,85,Qualified,CRM mock + alert,meets_qualified_threshold
+L006,Riley Morgan,riley.morgan@example.com,Bathroom remodel,30,12,25,20,87,87,Qualified,CRM mock + alert,meets_qualified_threshold
+L007,Jamie Lee,jamie.lee@example.com,Roof repair,20,25,15,20,80,80,Qualified,CRM mock + alert,meets_qualified_threshold
+L008,Morgan Davis,morgan.davis@example.com,Kitchen remodel,30,20,15,20,85,85,Qualified,CRM mock + alert,meets_qualified_threshold
+L009,Robin Kim,robin.kim@example.com,Kitchen remodel,20,12,15,8,55,55,Human queue,Human queue,uncertain_field:intent
+L010,Devon Wright,devon.wright@example.com,Bathroom remodel,10,20,25,8,63,63,Human queue,Human queue,uncertain_field:intent;uncertain_field:budget_low
+L011,Harper Singh,harper.singh@example.com,Kitchen remodel,5,20,25,15,65,65,Human queue,Human queue,uncertain_field:budget
+L012,Alex Rivera,alex.rivera@example.com,Roof repair,20,5,25,15,65,65,Human queue,Human queue,uncertain_field:timeline
+L013,Noor Haddad,noor.haddad@example.com,Kitchen remodel,10,12,15,15,52,52,Human queue,Human queue,uncertain_field:budget_low
+L014,Chris Evans,chris.evans@example.com,Bathroom remodel,5,12,25,8,50,50,Human queue,Human queue,uncertain_field:budget;uncertain_field:intent
+L015,Jordan Miller,jordan.miller@example.com,Kitchen remodel,30,25,25,20,100,100,Human queue,Human queue,duplicate_of_earlier_lead_with_same_email
+L016,Pat Sullivan,pat.sullivan@example.com,Kitchen remodel,30,25,25,20,100,39,Archive,Archive (logged),out_of_area
+L017,Spam Probe,spam.probe@example.com,Roof repair,10,5,15,0,30,30,Archive,Archive (logged),spam_probe
+L018,Jo Park,jo.park@example.com,Pool installation,20,20,0,15,55,39,Archive,Archive (logged),service_not_offered
+L019,Kim Okafor,kim.okafor@example.com,Kitchen remodel,0,25,25,20,70,39,Archive,Archive (logged),budget_below_minimum
+L020,Skyler Reed,skyler.reed@example.com,Roof repair,10,5,15,8,38,38,Archive,Archive (logged),score_below_threshold

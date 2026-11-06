@@ -1,0 +1,22 @@
+{
+  "total_documents": 10,
+  "counts_by_status": {
+    "Clean": 8,
+    "Exception": 2
+  },
+  "clean_ids": [
+    "DOC-01",
+    "DOC-02",
+    "DOC-03",
+    "DOC-04",
+    "DOC-05",
+    "DOC-06",
+    "DOC-07",
+    "DOC-08"
+  ],
+  "exception_ids": [
+    "DOC-09",
+    "DOC-10"
+  ],
+  "note": "No accuracy percentage is claimed beyond this 10-document test set."
+}

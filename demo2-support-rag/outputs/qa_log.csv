@@ -1,0 +1,11 @@
+question_id,question,outcome,reason,sources,answer,missing_info,suggested_human_reply
+Q01,How long does standard shipping take within the United States?,answer,grounded_in_doc,D01,[D01 Shipping] Standard shipping takes 3 to 5 business days within the United States.,,
+Q02,How many days do I have to return an unused item?,answer,grounded_in_doc,D02,[D02 Returns] Returns are accepted within a 30-day window of delivery for unused items in original packaging.,,
+Q03,Does the lifetime warranty cover manufacturing defects?,answer,grounded_in_doc,D03,[D03 Warranty] The lifetime warranty covers manufacturing defects in materials and workmanship.,,
+Q04,Do trail boots run true to size?,answer,grounded_in_doc,D04,[D04 Sizing] Trail boots run true to size.,,
+Q05,How do I track my order?,answer,grounded_in_doc,D05,[D05 Order tracking] Track your order with the tracking number emailed after shipment.,,
+Q06,Can I use a gift card online and does it expire?,answer,grounded_in_doc,D06,[D06 Gift cards] Gift cards never expire and can be used online and in store.,,
+Q07,What is the time window to return an item or exchange an item?,clarify_or_handoff,ambiguous_between_docs,D02;D09;D01,,Question matches both D02 (Returns) and D09 (Exchanges); which one applies?,"Could you clarify which of these you mean, so I can give you the right policy? A team member can also pick this up."
+Q08,What is the policy for a damaged item I want to exchange?,clarify_or_handoff,ambiguous_between_docs,D09;D10;D02,,Question matches both D09 (Exchanges) and D10 (Damaged items); which one applies?,"Could you clarify which of these you mean, so I can give you the right policy? A team member can also pick this up."
+Q09,Can you approve a refund for a tent I used on a trip and returned after 90 days?,handoff,action_requires_human_approval,D01;D02;D06,,"Human approval for a refund, cancellation, or order change.","Thanks for asking — I cannot approve that change here, so I have passed your request to a team member with the details."
+Q10,What is Acme Outdoors warranty on their Summit tent and do you carry it?,handoff,no_grounding_doc,D03,,No help doc covers this question.,"Thanks for asking — that is not covered in our help docs, so I have passed your question to a team member."

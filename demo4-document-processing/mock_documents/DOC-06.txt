@@ -1,0 +1,15 @@
+Supplier Invoice — fictional mock document
+Vendor: Cascade Outdoor
+Date: 2026-09-18
+PO number: PO-1006
+
+Line items:
+  Headlamps: 6 x $15.00 = $90.00
+  Trekking poles: 2 x $55.00 = $110.00
+  Dry bags: 5 x $10.00 = $50.00
+
+Subtotal: $250.00
+Tax: $20.00
+Total: $270.00
+
+Demo — fictional data. Not a real vendor document.

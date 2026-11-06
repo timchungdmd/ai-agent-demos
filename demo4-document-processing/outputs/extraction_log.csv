@@ -1,0 +1,11 @@
+doc_id,vendor,date,po_number,subtotal,tax,total,line_items_sum,min_confidence,status,destination,failing_field,reason
+DOC-01,Alpine Gear Supply,2026-09-02,PO-1001,540.00,43.20,583.20,540.00,0.96,Clean,Sheet (Clean),,all_validations_pass
+DOC-02,Cascade Outdoor,2026-09-05,PO-1002,205.00,16.40,221.40,205.00,0.95,Clean,Sheet (Clean),,all_validations_pass
+DOC-03,Summit Trading,2026-09-09,PO-1003,550.00,44.00,594.00,550.00,0.96,Clean,Sheet (Clean),,all_validations_pass
+DOC-04,Riverstone Goods,2026-09-12,PO-1004,360.00,28.80,388.80,360.00,0.94,Clean,Sheet (Clean),,all_validations_pass
+DOC-05,Alpine Gear Supply,2026-09-15,PO-1005,400.00,32.00,432.00,400.00,0.95,Clean,Sheet (Clean),,all_validations_pass
+DOC-06,Cascade Outdoor,2026-09-18,PO-1006,250.00,20.00,270.00,250.00,0.96,Clean,Sheet (Clean),,all_validations_pass
+DOC-07,Summit Trading,2026-09-22,PO-1007,1000.00,80.00,1080.00,1000.00,0.95,Clean,Sheet (Clean),,all_validations_pass
+DOC-08,Riverstone Goods,2026-09-25,PO-1008,195.00,15.60,210.60,195.00,0.94,Clean,Sheet (Clean),,all_validations_pass
+DOC-09,Alpine Gear Supply,2026-09-28,PO-1009,500.00,40.00,560.00,500.00,0.55,Exception,Human exception queue,total,total_mismatch:expected=540.00 stated=560.00
+DOC-10,Cascade Outdoor,2026-10-01,,300.00,24.00,324.00,300.00,0.00,Exception,Human exception queue,po_number,po_missing

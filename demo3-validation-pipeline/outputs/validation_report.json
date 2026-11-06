@@ -1,0 +1,82 @@
+[
+  {
+    "draft_id": "DRAFT-OK",
+    "seeded_defect": false,
+    "validator_passed": true,
+    "gates": [
+      {
+        "gate": "G1_required_fields_present",
+        "passed": true,
+        "evidence": "all present"
+      },
+      {
+        "gate": "G2_citation_present",
+        "passed": true,
+        "evidence": "cited_doc_id=D02"
+      },
+      {
+        "gate": "G3_no_invented_numbers",
+        "passed": true,
+        "evidence": "all numbers appear in cited doc"
+      },
+      {
+        "gate": "G4_confidence_matches_routing",
+        "passed": true,
+        "evidence": "confidence=high routing=answer"
+      },
+      {
+        "gate": "G5_no_unexplained_duplicate",
+        "passed": true,
+        "evidence": "no duplicate"
+      }
+    ],
+    "blind_verdict": "pass",
+    "blind_evidence": "all answer numbers ['30'] found in D02",
+    "adjudication": {
+      "decision": "pass",
+      "method": "validator_and_blind_agree",
+      "disagreement": false
+    },
+    "final_decision": "pass"
+  },
+  {
+    "draft_id": "DRAFT-SEEDED",
+    "seeded_defect": true,
+    "validator_passed": false,
+    "gates": [
+      {
+        "gate": "G1_required_fields_present",
+        "passed": true,
+        "evidence": "all present"
+      },
+      {
+        "gate": "G2_citation_present",
+        "passed": true,
+        "evidence": "cited_doc_id=D02"
+      },
+      {
+        "gate": "G3_no_invented_numbers",
+        "passed": false,
+        "evidence": "invented_numbers=['60']"
+      },
+      {
+        "gate": "G4_confidence_matches_routing",
+        "passed": true,
+        "evidence": "confidence=high routing=answer"
+      },
+      {
+        "gate": "G5_no_unexplained_duplicate",
+        "passed": true,
+        "evidence": "no duplicate"
+      }
+    ],
+    "blind_verdict": "fail",
+    "blind_evidence": "answer numbers ['60'] not in cited doc D02",
+    "adjudication": {
+      "decision": "fail",
+      "method": "validator_and_blind_agree",
+      "disagreement": false
+    },
+    "final_decision": "fail"
+  }
+]

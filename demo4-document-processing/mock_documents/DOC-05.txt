@@ -1,0 +1,14 @@
+Intake Form — fictional mock document
+Vendor: Alpine Gear Supply
+Date: 2026-09-15
+PO number: PO-1005
+
+Line items:
+  Sleeping bags: 4 x $50.00 = $200.00
+  Sleeping pads: 4 x $50.00 = $200.00
+
+Subtotal: $400.00
+Tax: $32.00
+Total: $432.00
+
+Demo — fictional data. Not a real vendor document.

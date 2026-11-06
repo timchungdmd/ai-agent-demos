@@ -1,0 +1,2 @@
+id,severity,finding,evidence,fix_applied,retest_result,gate_added
+DEF-001,High,Seeded defect: answer cites a 60-day return window; the cited doc (D02 Returns) documents 30 days.,validator: G3_no_invented_numbers: invented_numbers=['60'] | blind re-check: answer numbers ['60'] not in cited doc D02,Replaced 60 with the documented 30 from D02.,PASS,None new — G3 (no invented numbers) already catches this; the defect proves the gate fires.

@@ -1,0 +1,14 @@
+Supplier Invoice — fictional mock document
+Vendor: Cascade Outdoor
+Date: 2026-09-05
+PO number: PO-1002
+
+Line items:
+  Camp stoves: 4 x $30.00 = $120.00
+  Water filters: 5 x $17.00 = $85.00
+
+Subtotal: $205.00
+Tax: $16.40
+Total: $221.40
+
+Demo — fictional data. Not a real vendor document.

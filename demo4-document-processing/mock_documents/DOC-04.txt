@@ -1,0 +1,14 @@
+Supplier Invoice — fictional mock document
+Vendor: Riverstone Goods
+Date: 2026-09-12
+PO number: PO-1004
+
+Line items:
+  Rain jackets: 4 x $75.00 = $300.00
+  Trail shoes: 1 x $60.00 = $60.00
+
+Subtotal: $360.00
+Tax: $28.80
+Total: $388.80
+
+Demo — fictional data. Not a real vendor document.

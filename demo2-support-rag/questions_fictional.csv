@@ -1,0 +1,11 @@
+question_id,question,expected_source,expected_outcome
+Q01,How long does standard shipping take within the United States?,D01,answer
+Q02,How many days do I have to return an unused item?,D02,answer
+Q03,Does the lifetime warranty cover manufacturing defects?,D03,answer
+Q04,Do trail boots run true to size?,D04,answer
+Q05,How do I track my order?,D05,answer
+Q06,Can I use a gift card online and does it expire?,D06,answer
+Q07,What is the time window to return an item or exchange an item?,D02;D09,clarify_or_handoff
+Q08,What is the policy for a damaged item I want to exchange?,D09;D10,clarify_or_handoff
+Q09,Can you approve a refund for a tent I used on a trip and returned after 90 days?,,handoff
+Q10,What is Acme Outdoors warranty on their Summit tent and do you carry it?,,handoff
